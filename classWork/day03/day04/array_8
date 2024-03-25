@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a=10
+    int b[2]={1,2}
+    int c=20;
+    system("cls");
+    printf("\n%d\t%d",b[4],b[-5]);
+
+    printf("\n\n");
+
+    return 0;
+
+}
+
+

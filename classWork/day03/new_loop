@@ -1,0 +1,20 @@
+int main(){
+    int num,i=1;
+    char exitflag ='n';
+
+    printf("Enter a number to print its multiplication table: ");
+    scanf("%d", &num);
+    printf("Multiplication table of %d:\n",num);
+     
+     while(exitflag !='y'){
+        printf("%d X %d = %d\n",num,i,num*i);
+        i++;
+
+        if (i>10){
+            printf("Do you want to exit?(y/n): ");
+            scanf("%c", &exitflag);
+            i=1;
+        }
+     }
+     return 0;
+}
